@@ -1,0 +1,135 @@
+@media(max-width:1350px) {
+    .header__aside {
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(5px);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .header__aside:hover {
+        width: 100%;
+    }
+
+    .header__list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .header__link {
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+
+    .header__icon>i {
+        margin-right: 0;
+    }
+
+    .header__ava {
+        margin-right: 15px;
+    }
+}
+
+@media(max-width:1052px) {
+    .components {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .components__item {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:1111px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info__right {
+        margin-top: 15px;
+    }
+
+    .info__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info__items {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .info__left {
+        margin: 0;
+    }
+}
+
+@media(max-width:469px) {
+    .footer__content {
+        display: block;
+    }
+
+    .footer__title {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+    }
+
+    .welcome__title {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:416px) {
+    .header__aside {
+        padding: 0;
+    }
+
+    .header__icon>i {
+        font-size: 25px;
+    }
+
+    .header__link {
+        font-size: 10px;
+    }
+
+    .fad {
+        font-size: 37px;
+    }
+
+    .avatarka {
+        width: 58px;
+    }
+
+    .footer {
+        width: 320px;
+    }
+
+    .welcome {
+        width: 303px;
+    }
+
+    .welcome__text {
+        padding-right: 16px;
+    }
+
+    .footer__link {
+        margin-top: 10px;
+    }
+
+    .footer__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info__items{
+        justify-content: space-between;
+    }
+}
